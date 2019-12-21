@@ -1,3 +1,7 @@
-/**
- * Created by Jordan Takemoto on 11/23/2014.
- */
+app.controller('LoginController', ['$scope','$state','LoginService', function($scope, $state, LoginService){
+  console.log('login controller started!');
+
+  $scope.click = function(){
+    LoginService.login();
+  }
+}]);

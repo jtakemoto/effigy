@@ -1,1 +1,1 @@
-var app = angular.module('effigyApp', []);
+var app = angular.module('effigyApp', ['ui.router']);
